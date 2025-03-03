@@ -1,8 +1,8 @@
 ---
 title: Draft Example
-published: 2022-07-01
+published: 2025-03-04
 tags: [Markdown, Blogging, Demo]
-category: Examples
+category: "object-oriented program"
 draft: true
 ---
 
@@ -20,5 +20,3 @@ tags: [Markdown, Blogging, Demo]
 category: Examples
 draft: false
 ---
-
-pnpm dev 
