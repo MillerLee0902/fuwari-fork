@@ -1,9 +1,9 @@
 ---
 title: Draft Example
-published: 2022-07-01
+published: 2025-03-04
 tags: [Markdown, Blogging, Demo]
-category: Examples
-draft: true
+category: "object-oriented program"
+draft: true 
 ---
 
 # This Article is a Draft
@@ -20,7 +20,3 @@ tags: [Markdown, Blogging, Demo]
 category: Examples
 draft: false
 ---
-
-pnpm dev run code from local
-shift shift search something from project
-ctrl shift r reflash website

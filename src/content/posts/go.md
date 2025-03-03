@@ -1,8 +1,8 @@
 ---
 title: Draft Example
-published: 2025-03-04
+published: 2022-07-01
 tags: [Markdown, Blogging, Demo]
-category: "object-oriented program"
+category: 圍棋
 draft: true
 ---
 
@@ -17,6 +17,10 @@ When the article is ready for publication, you can update the "draft" field to "
 title: Draft Example
 published: 2024-01-11T04:40:26.381Z
 tags: [Markdown, Blogging, Demo]
-category: Examples
+category: 圍棋
 draft: false
 ---
+
+pnpm dev run code from local
+shift shift search something from project
+ctrl shift r reflash website
