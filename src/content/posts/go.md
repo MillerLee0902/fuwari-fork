@@ -17,47 +17,80 @@ When the article is ready for publication, you can update the "draft" field to "
 markdown
 
 ### 小目定石
-<!-- WGo.js 核心程式 -->
-<script src="https://wgo.waltheri.net/wgo.min.js"></script>
 
-<!-- WGo.js 播放器 -->
-<script src="https://wgo.waltheri.net/wgo.player.min.js"></script>
+[//]: # (<!-- WGo.js 核心程式 -->)
 
-<!-- 播放器的樣式 -->
-<link href="https://wgo.waltheri.net/wgo.player.css" rel="stylesheet">
+[//]: # (<script src="https://wgo.waltheri.net/wgo.min.js"></script>)
 
-<div id="board" style="width:400px; height:400px;"></div>
+[//]: # ()
+[//]: # (<!-- WGo.js 播放器 -->)
 
-<script>
-  var board = new WGo.Board(document.getElementById("board"), {
-    width: 400,
-    height: 400
-  });
+[//]: # (<script src="https://wgo.waltheri.net/wgo.player.min.js"></script>)
 
-  board.addObject({
-    x: 3,
-    y: 3,
-    c: WGo.B
-  });
+[//]: # ()
+[//]: # (<!-- 播放器的樣式 -->)
 
-  board.addObject({
-    x: 4,
-    y: 4,
-    c: WGo.W
-  });
-</script>
-<div id="board" style="width:400px; height:400px;"></div>
+[//]: # (<link href="https://wgo.waltheri.net/wgo.player.css" rel="stylesheet">)
 
-<script>
-  var board = new WGo.Board(document.getElementById("board"), {
-    width: 400,
-    height: 400
-  });
+[//]: # ()
+[//]: # (<div id="board" style="width:400px; height:400px;"></div>)
 
-  board.addObject({ x: 3, y: 3, c: WGo.B }); // 黑子
-  board.addObject({ x: 4, y: 4, c: WGo.W }); // 白子
-</script>
+[//]: # ()
+[//]: # (<script>)
 
+[//]: # (  var board = new WGo.Board&#40;document.getElementById&#40;"board"&#41;, {)
+
+[//]: # (    width: 400,)
+
+[//]: # (    height: 400)
+
+[//]: # (  }&#41;;)
+
+[//]: # ()
+[//]: # (  board.addObject&#40;{)
+
+[//]: # (    x: 3,)
+
+[//]: # (    y: 3,)
+
+[//]: # (    c: WGo.B)
+
+[//]: # (  }&#41;;)
+
+[//]: # ()
+[//]: # (  board.addObject&#40;{)
+
+[//]: # (    x: 4,)
+
+[//]: # (    y: 4,)
+
+[//]: # (    c: WGo.W)
+
+[//]: # (  }&#41;;)
+
+[//]: # (</script>)
+
+[//]: # (<div id="board" style="width:400px; height:400px;"></div>)
+
+[//]: # ()
+[//]: # (<script>)
+
+[//]: # (  var board = new WGo.Board&#40;document.getElementById&#40;"board"&#41;, {)
+
+[//]: # (    width: 400,)
+
+[//]: # (    height: 400)
+
+[//]: # (  }&#41;;)
+
+[//]: # ()
+[//]: # (  board.addObject&#40;{ x: 3, y: 3, c: WGo.B }&#41;; // 黑子)
+
+[//]: # (  board.addObject&#40;{ x: 4, y: 4, c: WGo.W }&#41;; // 白子)
+
+[//]: # (</script>)
+
+[//]: # ()
 
 pnpm dev run code from local
 shift shift search something from project
