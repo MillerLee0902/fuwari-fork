@@ -19,9 +19,9 @@ markdown
 ### 小目定石
 
 <h1>hello</h1>
-<script src="../../../eidogo-player-1.2/eidogo-player-1.2/player/js/all.compressed.js">
+<script src="/eidogo-player-1.2/player/js/all.compressed.js">
 </script>
-<div class="eidogo-player-auto" sgf="../../../eidogo-player-1.2/eidogo-player-1.2/sgf/blood_vomit.sgf">
+<div class="eidogo-player-auto" sgf="/eidogo-player-1.2/sgf/blood_vomit.sgf">
 </div>
 
 [//]: # (<div style="background-color: red; width: 200px; "></div>)
