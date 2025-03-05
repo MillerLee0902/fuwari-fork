@@ -18,9 +18,13 @@ markdown
 
 ### 小目定石
 
-[//]: # (<!-- WGo.js 核心程式 -->)
+<h1>hello</h1>
+<script src="../../../eidogo-player-1.2/eidogo-player-1.2/player/js/all.compressed.js">
+</script>
+<div class="eidogo-player-auto" sgf="../../../eidogo-player-1.2/eidogo-player-1.2/sgf/blood_vomit.sgf">
+</div>
 
-[//]: # (<script src="https://wgo.waltheri.net/wgo.min.js"></script>)
+[//]: # (<div style="background-color: red; width: 200px; "></div>)
 
 [//]: # ()
 [//]: # (<!-- WGo.js 播放器 -->)
@@ -91,7 +95,9 @@ markdown
 [//]: # (</script>)
 
 [//]: # ()
+[//]: # ()
+[//]: # (pnpm dev run code from local)
 
-pnpm dev run code from local
-shift shift search something from project
-ctrl shift r reflash website
+[//]: # (shift shift search something from project)
+
+[//]: # (ctrl shift r reflash website)

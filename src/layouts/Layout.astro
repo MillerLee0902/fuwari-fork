@@ -19,6 +19,7 @@ import { defaultFavicons } from '../constants/icon'
 import type { Favicon } from '../types/config'
 import { url, pathsEqual } from '../utils/url-utils'
 import 'katex/dist/katex.css'
+import '../../public/libs/wgo.player.css'
 
 interface Props {
   title?: string
@@ -537,3 +538,4 @@ if (window.swup) {
 	document.addEventListener("swup:enable", setup)
 }
 </script>
+
