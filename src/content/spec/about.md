@@ -1,5 +1,5 @@
 # About
-This is the demo site for [Miller](https://github.com/MillerLee0902).
+This is blog for [Miller](https://github.com/MillerLee0902).
 
 
 > ### Sources of images used in this site
