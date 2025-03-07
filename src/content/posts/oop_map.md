@@ -1,20 +1,29 @@
 ---
-title: vector
+title: map
 published: 2025-03-07
-tags: [ Markdown, Blogging, Demo ]
+tags: [ Markdown, Blogging]
 category: "object-oriented program"
 draft: false
 
 ---
-# vector  
+# map  
 
-### 優點  
-> 不需要事先宣告記憶體大小，並且支持使用中括號[]搜尋(與array相同)  
-### 缺點  
-> 內部操作銷率差
-
-
-initialize vector
+---
+## **介紹**
+map 在 C++ 的標準函示庫( STL )， 他的容器類型是關聯式容器，那甚麼是關聯式容器呢，我們先來了解一下關聯式容器與循序式容器的差別吧
+---
+## 循序式容器 sequence container  
+### 特色  
+線性排列(記憶體連續)  
+搜尋元素是以position來搜尋  
+搜尋順序從頭開始，例如找index 2的value，會從index 1, index 2才能找到value  
+---
+## 關聯式容器 associative container  
+### 特色  
+每組資料已pair(key, value)來存放  
+樹狀結構 hash table 來放key and value  
+不需要一個一個找資料，可以用key來找value 
+有 map, set, multimap, multiset  
 
 ```cpp
 #include <vector>
